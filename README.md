@@ -1,8 +1,111 @@
 # Adeline Foundation Website
 
+A bilingual (Indonesian/English) static website for Adeline Foundation, a Catholic non-profit focused on children's education and community health. The site uses plain HTML/CSS/JS with a lightweight client-side i18n system.
+
+## Features
+- Responsive, accessible static site (HTML/CSS/JS only)
+- Bilingual content (ID/EN) with instant toggle
+- Sections/pages:
+  - Home, About (Our History), Programs, Gallery, Contact, Donate, Privacy
+- Modern UI with Playfair Display + Lato, smooth interactions
+- Simple content structure; easy to edit without frameworks
+
+## Tech Stack
+- HTML5 + CSS3 (no build step)
+- Vanilla JavaScript (`staging/js/script.js`)
+- Client-side translations (`staging/js/translations.js`)
+- Assets in `staging/imgs/`
+
+## Project Structure
+```
+/staging/                 ← live site in staging subfolder
+  about.html
+  contact.html
+  donate.html
+  gallery.html
+  index.html
+  privacy.html
+  programs.html
+  /css/styles.css
+  /js/script.js
+  /js/translations.js
+  /imgs/*
+/index.html              ← root maintenance page (temporary)
+```
+
+Note: The entire website was moved to `/staging/` and the root `/index.html` currently shows a maintenance message. When ready to go live at the root, move files from `/staging/` up one level, or adjust server routing.
+
+## Running Locally
+Because this is a static site, you can:
+- Open `staging/index.html` directly in a browser, or
+- Serve the folder via any static server, e.g. Python:
+
+```bash
+python3 -m http.server 8080
+# then open http://localhost:8080/staging/
+```
+
+## Internationalization (i18n)
+- Language toggle: header buttons (🇮🇩 default, 🇬🇧 English)
+- Global API in JS: `window.AdelineFoundation`
+  - `setLanguage('id' | 'en')`
+  - `currentLang()`
+- Translation keys are defined in `staging/js/translations.js` under `id` and `en` objects.
+- To translate a DOM element, add `data-i18n="your.key"`. Example:
+
+```html
+<h2 data-i18n="programsPage.pageTitle">Program Kami</h2>
+```
+
+If an element has no `data-i18n`, it will not change when toggling languages. Custom paragraphs that must be translated should be bound to new keys in `translations.js`.
+
+## Editing Content
+- Page copy: edit the relevant `.html` files in `/staging/`
+- Styles: `staging/css/styles.css`
+- Scripts & i18n logic: `staging/js/script.js`
+- Translations: `staging/js/translations.js`
+- Images: `staging/imgs/`
+
+### Common Edits
+- Header language icons: in each page header (`lang-toggle`), the buttons are flags, default is 🇮🇩.
+- Footer contact details (applied sitewide):
+  - Address: `Jl. H. Agus Salim No.32B, Kebon Sirih, Menteng, Central Jakarta 10340`
+  - Email: `info@adalinefoundation.org`
+  - Phone: `(62) 021 5020-1021 | (62) 878 8002-0021 (WA)`
+- About → Our History timeline years and items are editable in `staging/about.html` and their translations in `translations.js`.
+- Programs page descriptions mirror the About summaries and are i18n-bound (`programsPage.*`).
+
+## Videos (Embeds)
+Responsive YouTube embeds use the `.video-embed` container (16:9, centered, max-width 800px). Add an iframe inside this container in the page content.
+
+## Staging vs. Production
+- Current working site: `/staging/`
+- Root `/index.html` shows a maintenance message: “We are fixing the website, soon we will serve you”. Remove/replace when going live.
+
+## Accessibility & SEO
+- Semantic HTML, labeled buttons (`aria-label`) for language flags
+- Add/update meta descriptions per page (`<meta name="description" ...>`)
+- Use descriptive `alt` text for all images
+
+## Deployment
+This is a static site and can be hosted on any static server or CDN (e.g., Netlify, Vercel, GitHub Pages, S3/CloudFront). Typical steps:
+1. Build step: none required.
+2. Ensure your host serves `/staging/` (or move contents to root for production).
+3. Set correct caching for `/css`, `/js`, and `/imgs`.
+
+## Contributing / Maintenance
+- Keep translations in sync for both `id` and `en` namespaces.
+- When adding new content: create translation keys and bind with `data-i18n`.
+- Maintain consistent footer/contact info across pages.
+- For larger copy blocks, summarize into one paragraph on About (as implemented) and provide EN equivalents.
+
+## Contact
+- Website: adalinefoundation.org
+- Email: info@adalinefoundation.org
+
 Website multi-halaman bilingual (Indonesia/Inggris) untuk Yayasan Adeline Foundation - sebuah yayasan Katolik yang berfokus pada pendidikan anak-anak dan kesehatan masyarakat.
 
-## 📋 Deskripsi
+## Deskripsi
 
 Website ini dirancang dengan tema Katolik yang lembut dan elegan, menampilkan:
 - 7 halaman utama dengan konten lengkap
