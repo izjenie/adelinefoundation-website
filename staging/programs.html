@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Program - Adeline Foundation</title>
+    <meta name="description" content="Program-program Adeline Foundation: Coding Mom, Pendidikan Waghete, dan Kesehatan & Vaksinasi">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Lato:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navigation Header -->
+    <header class="header" id="header">
+        <div class="container">
+            <nav class="nav">
+                <div class="nav-brand">
+                    <span class="logo-text">Adeline Foundation</span>
+                    <svg class="cross-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 2V22M2 12H22" stroke="#D4AF37" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                </div>
+                
+                <button class="nav-toggle" id="navToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+
+                <div class="nav-menu" id="navMenu">
+                    <a href="index.html" class="nav-link" data-i18n="nav.home">Beranda</a>
+                    <a href="about.html" class="nav-link" data-i18n="nav.about">Tentang Kami</a>
+                    <a href="programs.html" class="nav-link active" data-i18n="nav.programs">Program</a>
+                    <a href="gallery.html" class="nav-link" data-i18n="nav.gallery">Galeri</a>
+                    <a href="contact.html" class="nav-link" data-i18n="nav.contact">Kontak</a>
+                    
+                    <div class="lang-toggle">
+                        <button class="lang-btn active" data-lang="id" aria-label="Indonesian">🇮🇩</button>
+                        <button class="lang-btn" data-lang="en" aria-label="English">🇬🇧</button>
+                    </div>
+                    
+                    <a href="donate.html" class="btn btn-primary" data-i18n="nav.donate">Donasi</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="page-title" data-i18n="programsPage.pageTitle">Program Kami</h1>
+            <p class="page-subtitle" data-i18n="programsPage.pageSubtitle">Aksi nyata melayani dengan kasih</p>
+        </div>
+    </section>
+
+    <!-- Programs Detail Section -->
+    <section class="section">
+        <div class="container">
+            <!-- Waghete Education Program -->
+            <div class="program-detail wrap reverse">
+                <div class="program-detail-image">
+                    <img src="imgs/wagethe-education_5.jpg" alt="Pendidikan Waghete">
+                </div>
+                <div class="program-detail-content">
+                    <h2 class="program-detail-title" data-i18n="programsPage.wagethe.title">Pendidikan Waghete</h2>
+                    <p class="program-detail-subtitle" data-i18n="programsPage.wagethe.subtitle">Dukungan Pendidikan di Papua</p>
+                    <p data-i18n="programsPage.wagethe.desc1">Program pendidikan di Gereja Katolik Paroki Santo Yohanes Pemandi, Waghete dimulai dengan pengiriman Starlink untuk membuka akses internet di daerah sulit jaringan.</p>
+
+                    <p data-i18n="programsPage.wagethe.desc2">Melalui konektivitas ini, kami membangun sistem pembelajaran jarak jauh dari Jakarta bersama pastor dan pendidik lokal agar anak-anak dapat belajar daring dengan lancar.</p>
+
+                    <p data-i18n="programsPage.wagethe.desc3">Kini anak-anak asrama mengikuti sesi belajar remote mingguan (membaca, berhitung, pengetahuan umum) — simbol kolaborasi yang menjembatani jarak Jakarta–pegunungan Papua.</p>
+                    <div class="program-highlights">
+                        <h4 data-i18n="programsPage.highlights">Pencapaian:</h4>
+                        <ul>
+                            <li data-i18n="programsPage.wagethe.achievement1">Bantuan buku dan alat tulis untuk 150+ siswa</li>
+                            <li data-i18n="programsPage.wagethe.achievement2">Pembangunan perpustakaan mini di gereja</li>
+                            <li data-i18n="programsPage.wagethe.achievement3">Pelatihan guru sukarelawan lokal</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Health & Vaccination Program -->
+            <div class="program-detail wrap">
+                <div class="program-detail-image">
+                    <img src="imgs/health-vaccination_6.jpg" alt="Kesehatan & Vaksinasi">
+                </div>
+                <div class="program-detail-content">
+                    <h2 class="program-detail-title" data-i18n="programsPage.health.title">Kesehatan & Vaksinasi</h2>
+                    <p class="program-detail-subtitle" data-i18n="programsPage.health.subtitle">Layanan Kesehatan Masyarakat</p>
+                    <p data-i18n="programsPage.health.desc1">Pada masa pandemi, Adeline Foundation bersama Yayasan Ursulin menyelenggarakan vaksinasi masyarakat yang inklusif di berbagai lokasi.</p>
+
+                    <p data-i18n="programsPage.health.desc2">Kegiatan mencakup edukasi kesehatan, pembagian masker dan vitamin, sosialisasi protokol, dengan registrasi dan pendataan digital sesuai standar Kemenkes.</p>
+
+                    <p data-i18n="programsPage.health.desc3">Ribuan warga berbagai kalangan mendapat akses vaksinasi — bukti kolaborasi lembaga pendidikan dan yayasan sosial berdampak luas bagi kesehatan masyarakat.</p>
+                    <div class="video-embed">
+                        <iframe src="https://www.youtube.com/embed/WCXCvPIDYpY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <div class="program-highlights">
+                        <h4 data-i18n="programsPage.highlights">Pencapaian:</h4>
+                        <ul>
+                            <li data-i18n="programsPage.health.achievement1">Membantu vaksinasi COVID-19 untuk 1.000+ keluarga</li>
+                            <li data-i18n="programsPage.health.achievement2">Penyuluhan kesehatan dan gizi anak</li>
+                            <li data-i18n="programsPage.health.achievement3">Kerjasama dengan Kemenkes dan Palang Merah</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Coding Mom Program -->
+            <div class="program-detail wrap">
+                <div class="program-detail-image">
+                    <img src="imgs/coding-mom_8.webp" alt="Coding Mom Program">
+                </div>
+                <div class="program-detail-content">
+                    <h2 class="program-detail-title" data-i18n="programsPage.codingMom.title">Coding Mom</h2>
+                    <p class="program-detail-subtitle" data-i18n="programsPage.codingMom.subtitle">Pelatihan Digital untuk Ibu dan Anak</p>
+                    <p data-i18n="programsPage.codingMom.desc1">Pada 2016, Adeline Foundation bersama Bekraf menggagas Coding Mom untuk memberdayakan ibu rumah tangga agar melek teknologi dan mampu membuat website/aplikasi sederhana (HTML, CSS, JavaScript, domain/hosting, pemasaran digital).</p>
+
+                    <p data-i18n="programsPage.codingMom.desc2">Program berkembang menjangkau wilayah luar Jawa dan perempuan dengan disabilitas; diselenggarakan di Jakarta, Medan, Yogyakarta, Banjarbaru, dan berbagai daerah lainnya.</p>
+
+                    <p data-i18n="programsPage.codingMom.desc3">Dampaknya nyata: peserta mampu membuat situs web, mempresentasikan karya, dan menerapkan keterampilan digital untuk mengembangkan usaha.</p>
+
+                    <div class="video-embed">
+                        <iframe src="https://www.youtube.com/embed/uYEO5qLJJSY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <div class="program-highlights">
+                        <h4 data-i18n="programsPage.highlights">Pencapaian:</h4>
+                        <ul>
+                            <li data-i18n="programsPage.codingMom.achievement1">Lebih dari 200 ibu dan anak telah mengikuti pelatihan</li>
+                            <li data-i18n="programsPage.codingMom.achievement2">Pelatihan dasar pemrograman dan desain web</li>
+                            <li data-i18n="programsPage.codingMom.achievement3">Kemitraan dengan komunitas teknologi lokal</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="section bg-light">
+        <div class="container">
+            <h2 class="section-title" data-i18n="programsPage.testimonialsTitle">Testimoni Relawan</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-quote">
+                        <p data-i18n="programsPage.testimonial1.text">"Bergabung dengan Adeline Foundation membuka mata saya tentang pentingnya literasi digital. Melihat ibu-ibu bisa belajar coding bersama anak-anak mereka sangat mengharukan."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <strong data-i18n="programsPage.testimonial1.name">Maria Susanti</strong>
+                        <span data-i18n="programsPage.testimonial1.role">Relawan Coding Mom</span>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-quote">
+                        <p data-i18n="programsPage.testimonial2.text">"Pengalaman mengajar anak-anak di Papua adalah berkah luar biasa. Senyum mereka saat menerima buku baru tidak ternilai harganya."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <strong data-i18n="programsPage.testimonial2.name">Yohanes Paulus</strong>
+                        <span data-i18n="programsPage.testimonial2.role">Relawan Pendidikan Waghete</span>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-quote">
+                        <p data-i18n="programsPage.testimonial3.text">"Berkontribusi dalam program vaksinasi membuat saya merasa bisa membantu melindungi keluarga Indonesia. Ini adalah panggilan pelayanan yang sejati."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <strong data-i18n="programsPage.testimonial3.name">Dr. Angela Kristina</strong>
+                        <span data-i18n="programsPage.testimonial3.role">Relawan Kesehatan</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta-section">
+        <div class="container">
+            <h2 class="cta-title" data-i18n="programsPage.ctaTitle">Dukung Program Kami</h2>
+            <p class="cta-text" data-i18n="programsPage.ctaText">Kontribusi Anda akan membantu kami menjangkau lebih banyak anak-anak yang membutuhkan</p>
+            <a href="donate.html" class="btn btn-light-large" data-i18n="cta.button">Donasi Sekarang</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <div class="footer-brand">
+                        <span class="footer-logo">Adeline Foundation</span>
+                        <svg class="cross-icon" width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 2V22M2 12H22" stroke="#D4AF37" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <p class="footer-mission" data-i18n="footer.mission">Menghadirkan kasih melalui pendidikan dan kesehatan bagi anak-anak Indonesia</p>
+                </div>
+                
+                <div class="footer-column">
+                    <h4 class="footer-title" data-i18n="footer.quickLinks">Tautan Cepat</h4>
+                    <ul class="footer-links">
+                        <li><a href="about.html" data-i18n="nav.about">Tentang Kami</a></li>
+                        <li><a href="programs.html" data-i18n="nav.programs">Program</a></li>
+                        <li><a href="gallery.html" data-i18n="nav.gallery">Galeri</a></li>
+                        <li><a href="donate.html" data-i18n="nav.donate">Donasi</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4 class="footer-title" data-i18n="footer.contactTitle">Hubungi Kami</h4>
+                    <ul class="footer-contact">
+                        <li> Jalan Damai Sejahtera No. 8, Jakarta Selatan</li>
+                        <li> info@adalinefoundation.org</li>
+                        <li> +62 21 0000 0000</li>
+                    </ul>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="Instagram">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="Twitter">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Adeline Foundation – All Rights Reserved</p>
+                <p class="footer-tagline">Faith, Hope, and Love – In All We Do</p>
+                <a href="privacy.html" data-i18n="footer.privacy">Kebijakan Privasi</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/translations.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

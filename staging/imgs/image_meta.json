@@ -1,0 +1,272 @@
+[
+  {
+    "query": "A warm photo of children in a community setting, playing or learning together",
+    "image_info": {
+      "url": "https://static.vecteezy.com/system/resources/thumbnails/035/233/014/small_2x/magelang-indonesia-12-05-2023-group-of-kindergarten-school-children-and-teachers-playing-and-learning-outdoors-free-photo.JPG",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 109470,
+      "width": 1050,
+      "height": 700,
+      "total_pixels": 735000,
+      "basic_score": 0.9104225480802841,
+      "file_name": "gallery-1_0.JPG"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "A warm photo of children in a community setting, playing or learning together",
+    "image_info": {
+      "url": "https://st5.depositphotos.com/80480300/83476/i/450/depositphotos_834763550-stock-photo-jakarta-indonesia-august-2025-enthusiasm.jpg",
+      "img_format": "WEBP",
+      "mode": "RGB",
+      "file_size": 58844,
+      "width": 600,
+      "height": 450,
+      "total_pixels": 270000,
+      "basic_score": 0.7888805920514186,
+      "file_name": "gallery-1_4.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "A warm photo of children in a community setting, playing or learning together",
+    "image_info": {
+      "url": "https://img.freepik.com/premium-photo/happy-kids-playing-indonesian-traditional-games_8595-38471.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 76791,
+      "width": 626,
+      "height": 417,
+      "total_pixels": 261042,
+      "basic_score": 0.7778724660706158,
+      "file_name": "gallery-1_1.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "A photo showing children receiving healthcare or vaccination services",
+    "image_info": {
+      "url": "https://www.aljazeera.com/wp-content/uploads/2021/07/2017-12-11T111758Z_2099074745_RC1411EF59A0_RTRMADP_3_INDONESIA-HEALTH-DIPHTHERIA.jpg?w=770&resize=770%2C512",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 100878,
+      "width": 770,
+      "height": 512,
+      "total_pixels": 394240,
+      "basic_score": 0.8260781425973459,
+      "file_name": "health-vaccination_6.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "A photo showing children receiving healthcare or vaccination services",
+    "image_info": {
+      "url": "https://www.who.int/images/default-source/wpro/countries/viet-nam/feature-stories/2024/sny07664.jpg?sfvrsn=e0b3eaf2_3",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 228507,
+      "width": 514,
+      "height": 289,
+      "total_pixels": 148546,
+      "basic_score": 0.7600604118871148,
+      "file_name": "health-vaccination_4.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "A photo showing children receiving healthcare or vaccination services",
+    "image_info": {
+      "url": "https://i0.wp.com/chwcentral.org/wp-content/uploads/2018/04/indonesia.PNG?resize=834%2C273&ssl=1",
+      "img_format": "PNG",
+      "mode": "RGB",
+      "file_size": 414156,
+      "width": 834,
+      "height": 273,
+      "total_pixels": 227682,
+      "basic_score": 0.7462450958872762,
+      "file_name": "health-vaccination_9.PNG"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "A photo of volunteers working with children in educational activities",
+    "image_info": {
+      "url": "https://www.volunteerhq.org/images/projects/bali/volunteer-abroad-in-bali-ivhq-lovina-health-education.jpeg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 525917,
+      "width": 1193,
+      "height": 1004,
+      "total_pixels": 1197772,
+      "basic_score": 0.9483194457422631,
+      "file_name": "gallery-2_1.jpeg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "A photo of volunteers working with children in educational activities",
+    "image_info": {
+      "url": "https://d34ad2g4hirisc.cloudfront.net/volunteer_positions/photos/000/095/615/main/IMG_20250817_120633_692.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 142246,
+      "width": 1024,
+      "height": 720,
+      "total_pixels": 737280,
+      "basic_score": 0.9124964421039876,
+      "file_name": "gallery-2_9.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "A photo of volunteers working with children in educational activities",
+    "image_info": {
+      "url": "https://d34ad2g4hirisc.cloudfront.net/volunteer_positions/photos/000/052/747/main/1d296dd97fe76f2f0f57c5b0658a3948.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 103094,
+      "width": 1024,
+      "height": 720,
+      "total_pixels": 737280,
+      "basic_score": 0.9085097709436646,
+      "file_name": "gallery-2_8.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "A warm photo of children learning in a classroom, showing education and hope",
+    "image_info": {
+      "url": "https://c8.alamy.com/comp/2PXH0CW/jakarta-indonesia-school-children-in-classroom-reading-exercise-book-2PXH0CW.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 104127,
+      "width": 1300,
+      "height": 936,
+      "total_pixels": 1216800,
+      "basic_score": 0.9241984124179827,
+      "file_name": "hero-children_7.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "A warm photo of children learning in a classroom, showing education and hope",
+    "image_info": {
+      "url": "https://www.shutterstock.com/shutterstock/photos/2649642961/display_1500/stock-photo-happy-indonesian-schoolchildren-waving-with-books-in-classroom-library-background-2649642961.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 342358,
+      "width": 1500,
+      "height": 1100,
+      "total_pixels": 1650000,
+      "basic_score": 0.857727602139696,
+      "file_name": "hero-children_5.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "A warm photo of children learning in a classroom, showing education and hope",
+    "image_info": {
+      "url": "https://media.istockphoto.com/id/1408063902/photo/teacher-leading-the-class.jpg?s=612x612&w=0&k=20&c=WzZ05VRxaPmCNd4NMFW-ttf1TJGAiTmnLwQRfbgYAVQ=",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 32581,
+      "width": 612,
+      "height": 408,
+      "total_pixels": 249696,
+      "basic_score": 0.7670830681940904,
+      "file_name": "hero-children_4.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "A photo of mothers and children learning coding or using computers together",
+    "image_info": {
+      "url": "https://www.safes.so/wp-content/uploads/2024/11/Key-Computer-Skills-Every-Child-Should-Learn.webp",
+      "img_format": "WEBP",
+      "mode": "RGB",
+      "file_size": 118356,
+      "width": 1200,
+      "height": 601,
+      "total_pixels": 721200,
+      "basic_score": 0.9048027342809468,
+      "file_name": "coding-mom_8.webp"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "A photo of mothers and children learning coding or using computers together",
+    "image_info": {
+      "url": "https://algo.edu.vn/wp-content/uploads/2023/10/Untitled-design.png",
+      "img_format": "PNG",
+      "mode": "RGBA",
+      "file_size": 687556,
+      "width": 900,
+      "height": 600,
+      "total_pixels": 540000,
+      "basic_score": 0.9006941567507791,
+      "file_name": "coding-mom_1.png"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "A photo of mothers and children learning coding or using computers together",
+    "image_info": {
+      "url": "https://www.safes.so/wp-content/uploads/2024/11/A-Parents-Guide-to-Computer-Literacy-for-Kids-1024x513.webp",
+      "img_format": "WEBP",
+      "mode": "RGB",
+      "file_size": 49190,
+      "width": 1024,
+      "height": 513,
+      "total_pixels": 525312,
+      "basic_score": 0.8547434531001323,
+      "file_name": "coding-mom_4.webp"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "A photo of children in rural Papua Indonesia at school or learning",
+    "image_info": {
+      "url": "https://img.jakpost.net/c/2016/12/30/2016_12_30_18676_1483060034._large.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 304691,
+      "width": 1360,
+      "height": 899,
+      "total_pixels": 1222640,
+      "basic_score": 0.941858221586184,
+      "file_name": "wagethe-education_5.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "A photo of children in rural Papua Indonesia at school or learning",
+    "image_info": {
+      "url": "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1007%2Fs13384-023-00615-x/MediaObjects/13384_2023_615_Fig4_HTML.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 186470,
+      "width": 943,
+      "height": 628,
+      "total_pixels": 592204,
+      "basic_score": 0.8897555533341726,
+      "file_name": "wagethe-education_3.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "A photo of children in rural Papua Indonesia at school or learning",
+    "image_info": {
+      "url": "https://korindonews.com/wp-content/uploads/2017/03/korindo-group-core-information-society.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 97445,
+      "width": 716,
+      "height": 716,
+      "total_pixels": 512656,
+      "basic_score": 0.8596057725469142,
+      "file_name": "wagethe-education_8.jpg"
+    },
+    "llm_score": null
+  }
+]
