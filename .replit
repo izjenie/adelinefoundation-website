@@ -36,4 +36,4 @@ externalPort = 80
 [deployment]
 deploymentTarget = "static"
 publicDir = "react-app/dist"
-build = ["npm", "run", "build", "--prefix", "react-app"]
+build = ["bash", "-c", "cd react-app && npm install && npm run build"]
