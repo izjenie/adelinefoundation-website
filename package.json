@@ -1,0 +1,8 @@
+{
+  "name": "adelinefoundation-website",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "cd react-app && npm install && npm run build",
+    "dev": "cd react-app && npm run dev"
+  }
+}
