@@ -1,0 +1,51 @@
+13:02:47.806	Cloning repository...
+13:02:48.702	From https://github.com/izjenie/adelinefoundation-website
+13:02:48.703	 * branch            ab05ddde2e1b3eaf5852aff0574f247928342c0b -> FETCH_HEAD
+13:02:48.703	
+13:02:48.769	HEAD is now at ab05ddd Add build script to run React app from root directory
+13:02:48.770	
+13:02:48.851	
+13:02:48.852	Using v2 root directory strategy
+13:02:48.874	Success: Finished cloning repository files
+13:02:50.811	Checking for configuration in a Wrangler configuration file (BETA)
+13:02:50.811	
+13:02:51.925	No wrangler.toml file found. Continuing.
+13:02:51.989	Detected the following tools from environment: npm@10.9.2, nodejs@22.16.0
+13:02:51.989	Installing project dependencies: npm install --progress=false
+13:02:53.102	
+13:02:53.102	up to date, audited 1 package in 770ms
+13:02:53.103	
+13:02:53.104	found 0 vulnerabilities
+13:02:53.132	Executing user command: npm run build
+13:02:53.486	
+13:02:53.486	> adelinefoundation-website@1.0.0 build
+13:02:53.486	> cd react-app && npm install && npm run build
+13:02:53.486	
+13:02:55.974	
+13:02:55.975	added 161 packages, and audited 162 packages in 2s
+13:02:55.975	
+13:02:55.975	34 packages are looking for funding
+13:02:55.975	  run `npm fund` for details
+13:02:55.976	
+13:02:55.976	found 0 vulnerabilities
+13:02:56.148	
+13:02:56.148	> react-app@0.0.0 build
+13:02:56.148	> vite build
+13:02:56.148	
+13:02:56.431	vite v7.2.7 building client environment for production...
+13:02:56.499	transforming...
+13:02:57.478	✓ 56 modules transformed.
+13:02:57.641	rendering chunks...
+13:02:57.649	computing gzip size...
+13:02:57.658	dist/index.html                   0.82 kB │ gzip:  0.45 kB
+13:02:57.659	dist/assets/index-CoskFOAR.css   14.00 kB │ gzip:  3.21 kB
+13:02:57.659	dist/assets/index-DHtf24R4.js   279.06 kB │ gzip: 83.56 kB
+13:02:57.659	✓ built in 1.20s
+13:02:57.703	Finished
+13:02:58.575	Checking for configuration in a Wrangler configuration file (BETA)
+13:02:58.575	
+13:02:59.680	No wrangler.toml file found. Continuing.
+13:02:59.680	Note: No functions dir at /functions found. Skipping.
+13:02:59.681	Validating asset output directory
+13:02:59.681	Error: Output directory "dist" not found.
+13:03:00.911	Failed: build output directory not found
