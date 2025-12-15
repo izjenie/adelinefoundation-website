@@ -1,38 +1,43 @@
-# Adeline Foundation Website
+# Adeline Foundation Website (React)
 
 ## Overview
-A bilingual (Indonesian/English) static website for Adeline Foundation, a Catholic non-profit focused on children's education and community health.
+A bilingual (Indonesian/English) React website for Adeline Foundation, a Catholic non-profit focused on children's education and community health.
 
 ## Tech Stack
-- HTML5, CSS3, Vanilla JavaScript
-- No build step required
-- Python HTTP server for development
+- React 18 with Vite
+- React Router for navigation
+- Context API for i18n translations
+- CSS modules for styling
 
 ## Project Structure
 ```
-/staging/           - Main website content
-  /css/styles.css   - Stylesheet
-  /js/script.js     - Main JavaScript
-  /js/translations.js - i18n translations
-  /imgs/            - Image assets
-  *.html            - Page files (index, about, programs, gallery, contact, donate, privacy)
-/server.py          - Development server (Python)
-/index.html         - Maintenance page (not used)
+/react-app/
+  /public/imgs/         - Image assets
+  /src/
+    /components/        - Header, Footer
+    /context/           - LanguageContext for i18n
+    /i18n/              - Translation strings (id/en)
+    /pages/             - Page components (Home, About, Programs, Gallery, Contact, Donate, Privacy)
+    App.jsx             - Main app with routing
+    main.jsx            - Entry point with providers
+  vite.config.js        - Vite config (port 5000, allowedHosts)
+/staging/               - Original static HTML files (archived)
 ```
 
 ## Running the Project
-- Development: `python server.py` (serves on port 5000)
-- The server serves files from the `/staging/` directory
+- Development: `cd react-app && npm run dev` (port 5000)
+- Build: `npm run build --prefix react-app`
 
 ## Deployment
-- Configured as a static site deployment
-- Public directory: `staging`
+- Static site deployment
+- Build command creates production files in `react-app/dist`
 
 ## Features
-- Responsive design (mobile, tablet, desktop)
-- Bilingual content (Indonesian/English) with instant toggle
+- 7 pages: Home, About, Programs, Gallery, Contact, Donate, Privacy
+- Bilingual content (Indonesian/English) with toggle
 - Language preference saved to localStorage
-- Smooth animations and interactions
+- Responsive design (mobile, tablet, desktop)
+- Smooth animations and hover effects
 
 ## Recent Changes
-- December 2025: Initial Replit setup with Python HTTP server
+- December 2025: Converted from static HTML/CSS/JS to React with Vite
